@@ -2,7 +2,7 @@
 
 This is a Command line besed calculator.     
 
-![cli-calculator] (/.lib/cli-calculator.png)
+![cli-calculator](/.lib/cli-calculator.png)
 
 
 ## Installation
