@@ -85,7 +85,7 @@ def main_fun():
 	print ()
 	print () 
 	print ("---------------------------------------")
-	print ("iii) Other's")
+	print ("iii) Misc")
 	print ("---------------------------------------")
 	print (" q) Exit     u) Update     h) Help ") 
 	print (" d) Developer info      a) About it")
