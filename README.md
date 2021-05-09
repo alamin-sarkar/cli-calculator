@@ -12,7 +12,7 @@ To install this tool in Termux. Follow below steps
 1. pkg update
 2. pkg install git
 3. pkg install python
-4. git clone 
+4. git clone https://github.com/alamin-sarkar/cli-calculator.git
 5. cd cli-calculator
 6. python cli-calculator.py
 ```
@@ -64,13 +64,13 @@ Please make sure to update tests as appropriate.
 
 ## Developer info
 
-**Subscribe Us**  [YouTube] (https://www.youtube.com/channel/UCOBl9rXezNE5caIb1KeNiOg/)
-Visit our website [Website] (https://sci-techstudio.blogspot.com)
-Join our Telegram channel [Join Now] (https://t.me/scitechsolution)
+**Subscribe Us**  [YouTube](https://www.youtube.com/channel/UCOBl9rXezNE5caIb1KeNiOg/)
+**Visit our website** [Website](https://sci-techstudio.blogspot.com)
+**Join our Telegram** channel [Join Now](https://t.me/scitechsolution)
 
 
 ## Copyright
-©alamin2327
+©alamin-sarkar
 
 
 ## License
