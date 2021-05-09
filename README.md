@@ -7,7 +7,7 @@ This is a Command line besed calculator.
 
 ## Installation
 
-To install this tool in Termux. Follow below steps.
+To install this tool in [Termux](https://play.google.com/store/apps/details?id=com.termux). Follow below steps.
 Type these command one by one.
 ```
 1. pkg update
