@@ -7,7 +7,8 @@ This is a Command line besed calculator.
 
 ## Installation
 
-To install this tool in Termux. Follow below steps
+To install this tool in Termux. Follow below steps.
+Type these command one by one.
 ```
 1. pkg update
 2. pkg install git
@@ -65,7 +66,9 @@ Please make sure to update tests as appropriate.
 ## Developer info
 
 **Subscribe Us**  [YouTube](https://www.youtube.com/channel/UCOBl9rXezNE5caIb1KeNiOg/)
+
 **Visit our website** [Website](https://sci-techstudio.blogspot.com)
+
 **Join our Telegram** channel [Join Now](https://t.me/scitechsolution)
 
 
