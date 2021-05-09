@@ -25,7 +25,7 @@ sh install.sh
 `
 Now to run cli-calculator from any where just type this shortcut command: 
 
-`cli-cal`
+`cli-cal` or `ccal` or `calcu`
 
 
 
