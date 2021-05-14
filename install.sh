@@ -1,5 +1,6 @@
 #pkg update && pkg upgrade
 #pkg install python
+pkg install figlet
 cd
 cd ../usr/etc                                                              
 echo "alias cli-cal='cd && cd cli-calculator && python cli-calculator.py'" >> bash.bashrc
