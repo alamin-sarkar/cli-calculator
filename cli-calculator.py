@@ -1,4 +1,6 @@
-
+import os
+import sys
+import time
 #function number 1
 def main_fun():
 	
@@ -28,7 +30,7 @@ def main_fun():
 			
 	def help_fun():
 					
-		print (">>You select Help & Feedback")
+		print (">You select Help & Feedback")
 		print ()
 		print ()
 		print ()
@@ -233,7 +235,7 @@ def main_fun():
 						else:
 							print (">>Please select right option")
 							uni_t_fun()
-					print(">>You select Temperature")
+					print(">You select Temperature")
 					print ()
 					print (" 31) Celsius to Fahrenheit")         
 					print (" 32) Fahrenheit to Celsius")
@@ -246,7 +248,7 @@ def main_fun():
 				
 					def temp_fun():
 					
-						j=input ("Please Select any option: ")
+						j=input (">>Please Select any option: ")
 						print ()
 						print()
 						wee=str(j)
@@ -264,7 +266,7 @@ def main_fun():
 						if we == True:
 							mm = str(j)
 							if mm == t_one:
-								print (">You select Celsius to Fahrenheit")
+								print (">>You select Celsius to Fahrenheit")
 								print ()
 								cel_in=float(input ("Input Your °C temp: "))
 								ccel=cel_in*1.8
@@ -272,7 +274,7 @@ def main_fun():
 								print ("Your temp result: " + str(ccl) + " °F")
 								uni_t_fun()
 							elif mm == t_two:
-								print (">You select Fahrenheit to Celsius")
+								print (">>You select Fahrenheit to Celsius")
 								print ()
 								far_in=float(input ("Input Your °F temp: "))
 								far_out=5*(far_in-32)  
@@ -280,14 +282,14 @@ def main_fun():
 								print ("Your temp result: " + str(far_outt) + " °C")                     #uii
 								uni_t_fun()
 							elif mm == t_three:
-								print (">You select Celsius to Kelvin")
+								print (">>You select Celsius to Kelvin")
 								print ()
 								cel_in=float(input ("Input Your °C temp: "))
 								cel_out=cel_in+273.15                                                       
 								print ("Your temp result: " + str(cel_out) + " K")   #uiii
 								uni_t_fun()
 							elif mm == t_four:
-								print (">You select Fahrenheit to Kelvin")
+								print (">>You select Fahrenheit to Kelvin")
 								print ()
 								far_in=float(input ("Input Your °F temp: "))
 								far_out=5*(far_in-32)  
@@ -297,14 +299,14 @@ def main_fun():
 								uni_t_fun()
 				
 							elif mm == t_five:
-								print (">You select Kelvin to Celsius")
+								print (">>You select Kelvin to Celsius")
 								print ()
 								kel_in=float(input ("Input Your K temp: "))
 								kel_out=kel_in-273.15                                                    
 								print ("Your temp result: " + str(kel_out) + " °C") 
 								uni_t_fun()
 							elif mm == t_six:
-								print (">You select Kelvin to Fahrenheit")
+								print (">>You select Kelvin to Fahrenheit")
 								print ()
 								kel_in=float(input ("Input Your K temp: "))
 								kel_out=(kel_in-273.15)*1.8
@@ -332,7 +334,7 @@ def main_fun():
 						print ("qq) Quit")
 						print ("00) Back")
 						print ("hh) Home")
-						uni_input=input ("Please Select any option: ")
+						uni_input=input (">>Please Select any option: ")
 						uni_str=str(uni_input)
 						uni_array=["qq","00","hh"]
 						uni_data=uni_str in uni_array
@@ -355,7 +357,7 @@ def main_fun():
 						else:
 							print (">>Please select right option")
 							uni_l_fun()
-					print(">>You select Length and Distance")
+					print(">You select Length and Distance")
 					print ()
 					print (" 41) Kilometers to Miles")         
 					print (" 42) Miles to Kilometers")
@@ -386,7 +388,7 @@ def main_fun():
 						if we == True:
 							mm = str(j)
 							if mm == t_one:
-								print (">You select Kilometers to Miles")
+								print (">>You select Kilometers to Miles")
 								print ()
 								cel_in=float(input ("Input Your km value: "))
 								ccel=cel_in*0.621371192
@@ -394,7 +396,7 @@ def main_fun():
 								print ("Your result in miles: " + str(ccl) + " Mi")
 								uni_l_fun()
 							elif mm == t_two:
-								print (">You select Miles to Kilometers")
+								print (">>You select Miles to Kilometers")
 								print ()
 								far_in=float(input ("Input Your Mi value: "))
 								far_out=far_in*1.609344
@@ -402,14 +404,14 @@ def main_fun():
 								print ("Your result in km: " + str(far_outt) + " km")                     #uii
 								uni_l_fun()
 							elif mm == t_three:
-								print (">You select Centimeters to Inch")
+								print (">>You select Centimeters to Inch")
 								print ()
 								cel_in=float(input ("Input Your cm value: "))
 								cel_out=float(cel_in*0.393700787)                                           
 								print ("Your result in Inch: " + str(cel_out) + " in")   #uiii
 								uni_l_fun()
 							elif mm == t_four:
-								print (">You select Inch to Centimeters")
+								print (">>You select Inch to Centimeters")
 								print ()
 								far_in=float(input ("Input Your Inch value: "))
 								far_out=float(far_in*2.54)
@@ -417,14 +419,14 @@ def main_fun():
 								uni_l_fun()
 				
 							elif mm == t_five:
-								print (">You select Feet to Centimeters")
+								print (">>You select Feet to Centimeters")
 								print ()
 								kel_in=float(input ("Input Your Feet value: "))
 								kel_out=float(kel_in*30.48)                                            
 								print ("Your result in cm: " + str(kel_out) + " cm") 
 								uni_l_fun()
 							elif mm == t_six:
-								print (">You select Centimeters to Feet")
+								print (">>You select Centimeters to Feet")
 								print ()
 								kel_in=float(input ("Input Your cm value: "))
 								kel_out=kel_in*0.032808399
@@ -453,26 +455,45 @@ def main_fun():
 		
 			elif m==u:
 				
-				print (">>You select Update")
+				print (">You select Update")
 				print ()
 				print ()
 				print ("Use latest features of this tool must update it.")
 				print ()
-				print ("Automatic update system currently under maintenance")
-				print ("Please manually update this tool")
 				print ()
-				print()
-				print ("To manually update cli-calculator Follow these steps ↓↓")
-				print ()
-				print (" 1. First exit this tool by typing: qq")
-				print (" 2. Then go cli-calculator directory: cd cli-calculator")
-				print (" 3. Now type this command: sh update.sh ")
-				uni_fun()
+				print (" up) Confirm update")
+				print (" qq) Quit")
+				print (" 00) Back")
+				def up_fun():
+					
+					up_input=input ("Please Select any option: ")
+					up_str=str(up_input)
+					up_array=["up","qq","00"]
+					up_data=up_str in up_array
+					up="up"
+					qq="qq"
+					bck="00"
+					if up_data == True:
+						up_in_str=str(up_input)
+						if up_in_str == up:
+							os.system ("cd .lib && sh update.sh")
+							
+					elif up_in_str == qq:
+					    print ("You are successfully exit from Cli-Calculator.")
+					elif up_in_str == bck:
+							
+							main_fun()
+						
+					else:
+						print (">>Please select right option")
+						up_fun()
+						
+				up_fun()
 				
 			elif m==h:
 				help_fun()
 			elif m==d:
-				print (">>You select Developer Info")
+				print (">You select Developer Info")
 				print ()
 				print ()
 				print ("...About Developer... ")
@@ -512,7 +533,7 @@ def main_fun():
 				
 				
 			elif m==a:
-				print (">>You Select About Cli-Calculator Tool")
+				print (">You Select About Cli-Calculator Tool")
 				print ()
 				print ()
 				print ("This is a command line based calculator. You can use this calculator in any where with this shortcut command: cli-cal")        

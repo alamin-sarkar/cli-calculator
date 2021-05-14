@@ -9,4 +9,6 @@ chmod 777 install.sh
 sh install.sh
 echo
 echo "Update Complete"
+sleep 1
 echo "Please Restart Termux app"
+sleep 5
