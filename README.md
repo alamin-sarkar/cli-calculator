@@ -65,11 +65,9 @@ Please make sure to update tests as appropriate.
 
 ## Developer info
 
-**Subscribe Us**  [YouTube](https://www.youtube.com/channel/UCOBl9rXezNE5caIb1KeNiOg/)
-
-**Visit our website** [Website](https://sci-techstudio.blogspot.com)
-
-**Join our Telegram** channel [Join Now](https://t.me/scitechsolution)
+**Connect with me on**
+[Facebook](https://facebook.com/alamin2327)
+[Instagram](https://Instagram.com/alamin.2327)
 
 
 ## Copyright
